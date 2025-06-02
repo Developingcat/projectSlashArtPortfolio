@@ -1,0 +1,166 @@
+/******************/
+
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Bebas Neue */
+
+/* .bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* Work Sans */
+
+
+/* .work-sans-<uniquifier> {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/* .roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; */
+
+/******************
+
+
+
+
+/******************/
+
+
+/******************/
+/* Main body html */
+/******************/
+
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+body {
+    background-color: rgb(181, 141, 116);
+    margin: 0;
+    line-height: 2.5;
+}
+
+body .main-page {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    padding: 30px;
+    
+}
+
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    color: rgb(227, 211, 205);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(74, 62, 58);
+    margin: 0;
+    text-align: center;
+    /* border: ; */
+}
+
+h2 {
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    color:rgb(74, 62, 58);
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 850px;
+    background-color:rgb(199, 168, 148);
+}
+
+
+
+/* Content stuffs */
+
+body .content-wrapper {
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+}
+
+
+.content-wrapper p {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+    background-color: rgb(199, 168, 148);
+}
+
+
+/* Links */
+
+a { 
+    color:rgb(186, 127, 58); 
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+}
+
+a:hover {
+    color:rgb(181, 92, 233);
+}
+
+
+
+
+
+/****** Footer styles *******/
+
+footer {
+    display: flex;
+    padding: 0 20px;
+    background-color: rgb(107, 87, 74) ;
+}
+
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info {
+    margin-left: 10px;
+    display: block;
+}
+
+
+@media screen and (min-width: 860px){
+    footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 859px){
+    footer {
+        text-align: center; 
+        padding: 10px;
+    }
+}
+
+
+
